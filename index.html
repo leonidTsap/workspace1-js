@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Перевод градусов Цельсия в Фарингейты</title>
+	<!--<script src="js/main.js"></script>-->
+</head>
+<body>
+	<script>
+		var name = prompt ('Добро пожаловать в переводчик градусов! Представьтесь пожалуйста', '');
+		var admin = name;
+
+		var tC = prompt ('А теперь введите колличество градусов Цельсия', '');
+		var tF = (9/5) * tC + 32;
+
+		document.write ('<h1>Приветствую, ' + admin + '!</h1> <p>Я посчитал сколько будет градусов по Фаренгейту</p>');
+		document.write(tC +' °C = ' + tF + ' °F');
+	</script>
+	
+</body>
+</html>
